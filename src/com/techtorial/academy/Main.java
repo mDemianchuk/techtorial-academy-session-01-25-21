@@ -11,7 +11,7 @@ interface Printable {
 }
 
 abstract class Printer implements Printable {
-    protected int printSpeed;
+    private int printSpeed;
 
     protected Printer(int printSpeed) {
         this.printSpeed = printSpeed;
